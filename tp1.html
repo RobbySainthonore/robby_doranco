@@ -5,47 +5,49 @@
 		<script type ="text/javascript" src="index.js"> </script>
 	</head>
 	
-
 	<body>
-	
 	</body>
 	
 	<script type ="text/javascript">
-	//Déclaration variables
-	var nb = 5; 								//entier
-	var bool = 1;
-	var Pi = 3.1415;							// Float
-	var Helloword = " Bonjour et bienvenu!";	// String
-	var Question = " Que désirez vous ?";
-	var Acceuil = Helloword + Question;			// Concaténation
+		//Déclaration variables
+		var nb = 5; 								//entier
+		var bool = 1;
+		var Pi = 3.1415;							// Float
+		var Helloword = " Bonjour et bienvenu!";	// String
+		var Question = " Que désirez vous ?";
+		var Acceuil = Helloword + Question;			// Concaténation
 	
-	console.log(Acceuil);						//Affichage résultat
+		console.log(Acceuil);						//Affichage résultat
 	
-	var N = 100;
+		var N = 100;
 	
-	//Script modulo 3 OU 7
-	console.log("Les nombres divisibles par 3 ou 7 sont :")
-	for (var k=1; k<N ; k++)
-			{ if ( k%3===0 || k%7===0 ) 
-				{console.log(k)}
-			}
+		//Script modulo 3 OU 7
+		console.log("Les nombres divisibles par 3 ou 7 sont :")
+		for (var k=1; k<N ; k++)
+				{ if ( k%3===0 || k%7===0 ) 
+					{console.log(k)}
+				}
 	
-	//Script modulo 5 ET 7
-	console.log("Les nombres divisibles par 5 et 7 sont :")
-	for (var M=1; M<N ; M++)
-			{ if ( M%5===0 && M%7===0) 
-				{console.log(M);}
-			
-				
-			}
+		//Script modulo 5 ET 7
+		console.log("Les nombres divisibles par 5 et 7 sont :")
+		for (var M=1; M<N ; M++)
+				{ if ( M%5===0 && M%7===0) 
+					{console.log(M);}
+				}
 	
-	//Script addition
-	var a=0;
+		//Script addition
+		var add =0;
 	
-	for( var i=10; i<=20;i++ )
-			{	a = a + i;
-			}
-				console.log("Voici le résultat de l'addition :" + a);
+		for(var i=10; i<=20;i++)
+				{add = add + i;}
+		console.log("Voici le résultat de l'addition :" + add);
+		
+		
+		//Script HelloWordx10
+		for (var j=1; j<=10; j++)
+				{console.log("Hello world !")}
+		
+		
 	</script>
 	
 </html>
